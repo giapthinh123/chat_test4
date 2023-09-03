@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/style.css');
+    res.sendFile(__dirname + 'style.css');
   });
 
 server.listen(8080, () => {
