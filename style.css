@@ -1,0 +1,48 @@
+
+.khung{
+    width: 97%;
+    height: 90%;
+    position: absolute  ;
+    border-radius: 10px;
+    padding: 10px;
+    right: 10px;
+    border: 1px solid ;
+}
+#box_chat{
+    width: 93%;
+    position: absolute ;
+    margin: 10px;
+    border-radius: 10px;
+    bottom: 10px;
+    border: 1px solid ;
+    padding: 5px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.gui{
+    position: absolute  ;
+    margin: 10px;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.gui:hover{
+    font-size: 22px;
+}
+p{
+    position:static ;
+    color: red;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 97%;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.dts{
+    z-index: 10;
+}
